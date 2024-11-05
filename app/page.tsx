@@ -1,3 +1,4 @@
+import Cards from "@/components/Cards";
 import Future from "@/components/Future";
 import Header from "@/components/Header";
 import { Nav } from "@/components/Nav";
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Product />
       <Future />
+      <Cards />
 
     </>
   );
