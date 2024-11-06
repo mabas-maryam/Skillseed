@@ -32,7 +32,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <div className='parent bg-[#172755]'>
+    <div className='parent bg-[#172755] py-6'>
       <div className="w-[90%] mx-auto grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {footerSections.map((section, idx) => (
           <div key={idx} className="space-y-4 ml-10 md:ml-8">
