@@ -14,9 +14,9 @@ export default function Home() {
       <Product />
       <Future />
       <Cards />
-      <div>
+      <div className="bg-white">
       <header className="text-center py-8">
-        <h1 className="text-xl text-gray-600">Shop Smarter, Live Better!</h1>
+        <h1 className="text-sm text-gray-800 place-items-start px gap-6">Shop Smarter, Live Better!</h1>
       </header>
       <FindCard />
     </div>
